@@ -1,0 +1,79 @@
+.head {
+    background-color: aquamarine;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: none;
+}
+@keyframes animate {
+    from {background-color: aquamarine;}
+    to {background-color: azure;}
+    from {box-shadow: 5px 5px 5px aquamarine;}
+    to {box-shadow: 5px 5px 5px lightblue;}
+}
+.head:hover {
+    background-color: aquamarine;
+}
+
+.info {
+    width: 40%;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 25px;
+    height: 200px;
+    padding-bottom: 2px;
+    box-shadow: 5px 5px 5px lightblue;
+    font-family: 'Lobster Two', cursive;
+    font-size: 19px;
+    animation-name: animate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: none;
+}
+@keyframes animate2 {
+    from {background-color: aquamarine;}
+    to {background-color: azure;}
+    from {box-shadow: 5px 5px 5px aquamarine;}
+    to {box-shadow: 5px 5px 5px lightblue;}
+}
+
+hr {
+    background-color: black;
+}
+
+.results {
+    margin-top: 35px;
+}
+
+.obj {
+    margin-left: 400px;
+}
+.accuracy {
+    margin-right: 400px;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    bottom: 0;
+    margin-top: 285px;
+    height: 20px;
+    animation-name: animate3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: monospace;
+}
+@keyframes animate3 {
+    from {background-color: aquamarine;}
+    to {background-color: azure;}
+    from {box-shadow: 5px 5px 5px aquamarine;}
+    to {box-shadow: 5px 5px 5px lightblue;}
+    from {height: 40px;}
+    to {height: 35px;}
+    from {padding: 10px;}
+    to {padding: 6px;}
+}
